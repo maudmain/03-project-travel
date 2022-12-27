@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/5a499fd8bd.js" crossorigin="anonymous"></script>
+  
 
 
   <!-- Custom styles for this template -->
@@ -30,42 +30,44 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar" id="mainNav">
+  <nav class="navbar navbar-expand-lg  " id="navbar">
     <div class="container">
-      <a class="" href="">Travel California</a>
-      <div>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="" href="#download">Download</a>
-          </li>
-          <li class="nav-item">
-            <a class="" href="#features">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <a class="navbar-brand" href="#">Travel California</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#download">Downloads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#signup">Contact</a>
+        </li>
+      </ul>
     </div>
+  </div>
   </nav>
 
   <!-- Hero Section -->
   <header class="masthead">
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
+        <div class="row align-items-center">
+          <div class=" header-title col-lg-7">
             <h1>Download the Travel California app and explore California today</h1>
+            <button type="button" class="btn ">Start now for free</button>
           </div>
           <div class="col-lg-5">
             <div class="device-container">
-              <div class="device"></div>
-              <div class="screen"><img src="./assets/images/demo-screen-1 1.png"></div>
+                <img class="deviceMockupImg" src="./assets/images/demo-screen-1 1.png">
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
   </header>
 
   <!-- Download Section -->
@@ -88,7 +90,7 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials ">
+  <section class="testimonials" id="features">
     <h2>What people are saying...</h2>
     <div class="container">
       <div class="row">
@@ -133,7 +135,7 @@
   </section>
 
   <!-- Contact-->
-  <section class="contact-section bg-black">
+  <section class="contact contact-section bg-black">
     <div class="container">
       <div class="row">
 
