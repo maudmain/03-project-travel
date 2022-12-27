@@ -164,3 +164,8 @@ justify-content: space-between;
   height: 400px;
 
 }
+
+/*contact section*/
+.card-body{
+color: black;
+}
