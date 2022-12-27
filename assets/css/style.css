@@ -98,7 +98,6 @@ section h2 {
   position: relative;
   width: 100%;
   height: 1080px;
-  top: -60px;
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
@@ -131,14 +130,37 @@ header.masthead .device-container {
   padding: 30px;
 }
 
-/* download section*/
+/*download section*/
 .download {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   position: relative;
   background-color: #fdcc52;
-  text-align: center;
+ 
 }
 
 .download img {
   width: 150px;
 }
 
+/*testimonials section*/
+.testimonials {
+  /* padding-top: 5rem;
+  padding-bottom: 5rem; */
+justify-content: space-between;
+  
+}
+
+.testimonials img{
+  max-width: 15rem;
+}
+
+/*sign up section*/
+.signup-section {
+  justify-content: center;
+  color: white;
+  background: url("../images/SF.svg");
+  background-size: cover;
+  height: 400px;
+
+}
