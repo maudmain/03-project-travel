@@ -75,12 +75,18 @@ section h2 {
 }
 
 #navbar .navbar-brand {
-  color: #fdcc52;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  font-size: x-large;
-  
-  /* -webkit-text-stroke: 0.8px black;  */
+  font-style: normal;
+  font-size: 28px;
+  line-height: 49px;
+  align-items: center;
+  font-weight: 400;
+  color: #FFE000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke: 1.5px black; 
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #navbarNav {
@@ -98,8 +104,8 @@ section h2 {
   position: relative;
   width: 100%;
   height: 1080px;
-  padding-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 50px;
   color: white;
   background: url("../images/bg-img.svg");
   background-size: cover;
@@ -114,11 +120,11 @@ section h2 {
   align-items: center;
 }
 
-.btn{
-    box-shadow:0 2px 2px 0 rgba(0,0,0, 0.1)!important ;
+.btn {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
   color: white;
   border: 1px solid white;
-  
+
 }
 
 header.masthead .device-container {
@@ -136,7 +142,7 @@ header.masthead .device-container {
   padding-bottom: 5rem;
   position: relative;
   background-color: #fdcc52;
- 
+
 }
 
 .download img {
@@ -147,11 +153,11 @@ header.masthead .device-container {
 .testimonials {
   /* padding-top: 5rem;
   padding-bottom: 5rem; */
-justify-content: space-between;
-  
+  justify-content: space-between;
+
 }
 
-.testimonials img{
+.testimonials img {
   max-width: 15rem;
 }
 
@@ -166,14 +172,28 @@ justify-content: space-between;
 }
 
 /*contact section*/
-.contact{
+.contact {
   background-color: black;
 }
-.card-body{
-color: black;
+
+.card-body {
+  color: black;
 }
 
+.social {
+  text-align: center;
+  height: 3rem;
+  margin-top: 2rem;
+}
+
+.social-icons i {
+  margin: 2rem;
+  font-size: 30px;
+  width: 80px;
+}
+
+
 /*footer section*/
-.footer{
+.footer {
   background-color: grey;
 }
